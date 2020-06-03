@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="container">
-    <div class=row>
+    <div class="row">
       <h1>プロフィール一覧<h1>
     </div>
     <hr color="#c0c0c0">
