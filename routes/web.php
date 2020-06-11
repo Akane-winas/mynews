@@ -48,4 +48,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 //一般閲覧者側
 Route::get('/', 'NewsController@index');
+
+Route::get('/help', 'HelpController@index');
+Route::post('/help/confirm', 'HelpController@confirm');
+Route::post('/help/comfirm', 'HelpController@send');
+
+
 Route::get('/profile', 'ProfileController@index');
