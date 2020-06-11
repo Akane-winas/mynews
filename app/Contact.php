@@ -11,7 +11,7 @@ class Contact extends Model
 
     public static $rules = array(
       'name' => 'required',
-      'email' => 'required|email|alpha_dash',
+      'email' => 'required|email',
       'question' => 'required|max:500'
     );
 }
